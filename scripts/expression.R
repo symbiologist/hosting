@@ -13,4 +13,4 @@ length(list.files(source))
 
 #github
 usethis::use_git_config(user.name = "symbiologist", user.email = "symbiologist@gmail.com")
-credentials::set_github_pat("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")
+credentials::set_github_pat("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")
