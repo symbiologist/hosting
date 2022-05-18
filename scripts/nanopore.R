@@ -1,7 +1,13 @@
 setwd('/media/data1/dwu/hosting/')
 
-file.copy(from = '/media/data4/shared/ipsc_manuscript/analysis/reference/output/002_unified_reference/unified_ucsc.gtf',
-          to = 'data/ucsc.gtf', overwrite = TRUE)
+file.copy(from = '/media/data4/shared/ipsc_manuscript/data/nanopore/raw/PromethION/bam/grch38_locus.sam',
+          to = 'data/nanopore/', overwrite = TRUE)
+
+file.copy(from = '/media/data4/shared/ipsc_manuscript/data/nanopore/raw/PromethION/bam/grch38_locus.bam',
+          to = 'data/nanopore/', overwrite = TRUE)
+
+file.copy(from = '/media/data4/shared/ipsc_manuscript/data/nanopore/raw/PromethION/bam/grch38_locus.bam.bai',
+          to = 'data/nanopore/', overwrite = TRUE)
 
 # Add this text
 # track name="Unified Reference" description="Unified Reference lncRNA genes" color=204,0,204
